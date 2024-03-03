@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      crimson : 'Crimson Text'
+    },
     screens: {
       sm: '480px',
       md: '760px',
