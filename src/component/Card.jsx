@@ -26,7 +26,7 @@ const Card = () => {
                         <button
                             onClick={toggleModal}
                             className="bg-[#512da8] text-lg border font-semibold md:shadow-[5px_20px_15px_rgba(0,0,0,0.35)] shadow-[5px_5px_15px_rgba(0,0,0,0.35)] hover:shadow-[5px_5px_15px_rgba(0,0,0,0.35)] tracking-[0.5px] cursor-pointer px-5 py-4 rounded-3xl border-solid border-transparent
-                        hover:bg-white hover:border-[#512da8] hover:text-[#512da8] translate-x-0 transition-all duration-[0.6s] ease-[ease-in-out] text-[#090611]"
+                        hover:bg-white hover:border-[#512da8] hover:text-[#512da8] translate-x-0 transition-all duration-[0.6s] ease-[ease-in-out] "
                         >
                             Connect Wallet
                         </button>
@@ -41,10 +41,10 @@ const Card = () => {
                                         alt=""
                                     />
                             <h1 className='md:text-3xl text-xl font-bold '>Block Chain Quick Fix</h1>
-                            <p className='md:text-2xl font-bold md:px-0 px-2 py-2  text-[#090611]'>
+                            <p className='md:text-2xl font-bold md:px-0 px-2 py-2  '>
                                 Contact the team and we help with all your web3 troubleshoot
                             </p>
-                            <h2 className='md:text-2xl p-2 md:w-full text-center text-lg font-semibold text-[#090611]'>Just one connect and we do the rest</h2>
+                            <h2 className='md:text-2xl p-2 md:w-full text-center text-lg font-semibold '>Just one connect and we do the rest</h2>
                         </div>
                     </div>
                 </div>
