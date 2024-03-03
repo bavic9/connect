@@ -25,7 +25,7 @@ const Card = () => {
                     <div className='h-full m-auto flex flex-col items-center justify-center md:space-y-16 py-6 px-6'>
                         <button
                             onClick={toggleModal}
-                            className="bg-[#512da8] text-lg border font-semibold md:shadow-[5px_20px_15px_rgba(0,0,0,0.35)] shadow-[5px_5px_15px_rgba(0,0,0,0.35)] hover:shadow-[5px_5px_15px_rgba(0,0,0,0.35)] tracking-[0.5px] cursor-pointer px-5 py-4 rounded-3xl border-solid border-transparent
+                            className="bg-[#512da8] text-lg text-white border font-semibold md:shadow-[5px_20px_15px_rgba(0,0,0,0.35)] shadow-[5px_5px_15px_rgba(0,0,0,0.35)] hover:shadow-[5px_5px_15px_rgba(0,0,0,0.35)] tracking-[0.5px] cursor-pointer px-5 py-4 rounded-3xl border-solid border-transparent
                         hover:bg-white hover:border-[#512da8] hover:text-[#512da8] translate-x-0 transition-all duration-[0.6s] ease-[ease-in-out] "
                         >
                             Connect Wallet
